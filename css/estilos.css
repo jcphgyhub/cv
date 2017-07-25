@@ -1,0 +1,239 @@
+*{
+}
+/*Clases Generales*/
+#particles-js{
+  z-index: -4000;
+}
+.brand-logo{
+  padding: 0;
+}
+.zi{
+  z-index: 15000;
+}
+.vdo{
+  min-width: 150px;
+}
+.zib{
+  z-index: 20000;
+}
+#lala{
+  font-weight: bold;
+  padding: 0;
+  padding:9px 3px;
+  font-family: courier;
+  margin: 0;
+}
+.dis-nav{
+  font-family: monospace;
+  font-size: 1.6em;
+}
+.plox{
+  position: absolute;
+  z-index: 1000;
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+}
+#foo{
+  font-size: 1.2em;
+}
+@media screen and (max-width:600px) {
+  .plox{
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    font-size: .9em;
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .plox{
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  #cambio{
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+    margin-top: 50px;
+  }
+  .header{
+    margin: 0;
+    padding: 0;
+  }
+  .row{
+    padding: 0;
+    margin: 0;
+  }
+  .center-con{
+	padding-top: .5em;
+	font-size:25px;
+	text-align: center; 
+  }
+
+}
+@media screen and (max-width:800px) {
+  .center-con{
+	padding-top: 1em;
+	font-size:30px;
+	text-align: center; 
+  }
+}
+.material-icons{
+  color: rgb(52,167,220);
+}
+/*TERMINAN Estilos para logo del nav*/
+
+/*Vinculos NAV*/
+/*TERMINAN vinculos nav*/
+/*Estilos para fondo de encabezado*/
+/*TERMINAN Estilos para fondo de encabezado*/
+
+/*Estilos para texto estatico encabezado*/
+.pad-top{
+  margin-top: 3.5em;
+}
+@media screen and (max-width: 400px) {
+  .pad-top{
+    margin-top: 2.5em;
+  }
+}
+/*Terminan estilos para texto estatico encabezado*/
+
+/*Estilos para animación writting del encabezado*/
+#cambio{
+  /*text-shadow: 3px 3px 6px rgba(50,50,50,0.6);*/
+  background: rgba(52,167,220,.5);
+  color: rgba(250,250,250,1);
+  width: 100%;
+  padding: 15px;
+  height: auto;
+  font-size: 2.5em;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: Courier,Monaco, Consolas, "Lucida Console", monospace;
+}
+.nodisplay {
+  display: none;
+  }
+/* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+            display: none;
+        }
+
+/*Terminan estilos para animación del writting del encabezado*/
+/*Comienza estilos para servicios*/
+.vdo{
+  background: url(../img/q.jpg)  no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+#sonido{
+  z-index: -10000;
+  position: relative;
+
+}
+#servicios{
+  background: url(../img/bg.jpg)  no-repeat center top fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+#titulos{
+  padding: 2px;
+
+}
+.bgOpacidad{
+  background: rgba(0,0, 0, 0.5);
+  display: block;
+  width: 100%;
+}
+.container-serv{
+  padding: 0 10px;
+  padding-top: 8px;
+}
+.light-blue-t{
+  background: rgba(52,167,220,.8);
+  color: white;
+  margin-top: 18px;
+}
+.btn-orden{
+  margin-left: 25%;
+  margin-bottom: 8px;
+}
+.img-servicios{
+  width: 85%;
+  margin-left: 7.5%;
+  margin-top: 8px;
+}
+.img-servicios-ajustar{
+  width: 45%;
+  margin-left: 27.5%;
+  margin-top: 8px;
+}
+/*Terminan estilos para servicios*/
+footer{
+  padding: 20px;
+  position: relative;
+  z-index: 15000;
+  color: rgb(30, 30, 30);
+  font-size: 1.4em;
+}
+/*Pagina Contacto.html*/
+.formulario{
+  background: url(../img/castle.jpg)  no-repeat center top fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.center-con{
+	padding-top: 2em;
+	text-align: center; 
+}
+.formT{
+  background: rgba(0,0,0, 0.8);
+  color: rgba(255,255,255, 1);
+}
+.blanco{
+  color: white;
+}
+.bg-sl{
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.bg-face{
+  padding: 5% 0;
+}
+.pad-foo{
+  padding: 1.11em;
+  border-bottom: 1px solid white;
+}
+.pad-foo:hover{
+  background: rgba(0, 0, 0, 0.35);
+  border-bottom: 1px solid white;
+}

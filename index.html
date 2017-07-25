@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- caracteres latinos  -->
+  <meta charset="utf-8">
+  <!-- Titulo de la pestaña de pagina  -->
+  <title>Home JCPH CV</title>
+  <!-- Descripcion del contenido de la pagina -->
+  <meta name="description" content="Curriculum JCPH ,
+  Curriculum Juan Carlos Perez Hernandez, cv vitae">
+  <!-- Autor de la pagina -->
+  <meta name="author" content="Juan Carlos Perez H" />
+  <!-- especificación de contenido de la pagina para dispositivos moviles
+    El Viewport es una de las etiquetas más representativas de la web móvil,
+    que nos permite configurar cómo debe interpretar una página el navegador web para móviles.
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,
+  maximum-scale=1.0, user-scalable=no">
+  <!-- Icono que se ve en la pestaña del navegador -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <!-- Estilos para particulas -->
+  <link rel="stylesheet" media="screen" href="css/stylePat.css">
+  <!-- CSS  Materialize-->
+  <!-- Importando tipografía de iconos -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet"
+  media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Estilos propios generales -->
+  <link href="css/estilos.css" type="text/css" rel="stylesheet"/>
+
+
+</head>
+<body>
+  <!-- NAV -->
+    <!--
+    La clase "navbar-fixed" hace que el nav se quede en su posición no importando
+    si el usuario se desliza hacia abajo.
+    la clase "zi" aplica al nav un z-index de 15000, esto es para que no choque con
+    los demas elementos
+    -->
+    <div class="navbar-fixed zi">
+      <!-- la clase black pone el fondo negro y la clase "vdo" le pone una
+      imagen de fondo-->
+      <nav class="black vdo" role="navigation">
+        <!-- nav-wrapper es una clase de materialize que es un contenedor dentro del nav
+          la clase "container" es un contenedor que centra los elementos dentro de el.
+          la clase "white-text" texto blanco
+        -->
+        <div class="nav-wrapper container white-text">
+          <!-- hipervinculo con la clase de materialize "brand-logo"
+          asigna el ancho de ese elemento como el ancho de un logo de nav tradicional -->
+          <a id="" href="index.html" class="brand-logo">
+            <!-- los elementos i son utilizados para los iconos de materialize
+                    las clases :
+                      material-icons: para determinar las caracteristicas de icono
+                      large: icono grande
+                      white-text: texto de color blanco
+          -->
+            <i class="material-icons large white-text">person_pin</i>
+            <!-- Hace las veces de un logo  -->
+            <h3 id="lala" class="white-text">JCPH CV</h3>
+          </a>
+          <!--Estos son los hipervinculos de menu la lista-->
+          <ul class="right hide-on-med-and-down">
+            <li><a href="aproposito.html" class="white-text dis-nav">Conoceme</a></li>
+            <li><a href="historial.html" class="white-text dis-nav">Historial</a></li>
+            <li><a href="tecnologias.html" class="white-text dis-nav">Tecnolog&iacute;as</a></li>
+            <li><a href="contacto.html" class="white-text dis-nav">Contacto</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="side-nav zib">
+            <li>
+              <div class="userView">
+                  <div class="background">
+                    <video id="vdobg" poster="img/negocio.jpg" width="100%"
+                    preload loop autoplay="true" muted="true">
+                					<source src="video/glacier.ogv" type="video/ogv">
+                					<source src="video/glacier.mp4" type="video/mp4">
+                		</video>
+                  </div>
+                  <img class="circle" src="img/profile.jpg">
+                  <span class="white-text email">jcphgy@yahoo.com.mx</span>
+                  <a href="index.html"><span class="white-text name">Inicio</span></a>
+              </div>
+            </li>
+            <li><a href="aproposito.html" class="blue-text">Conoceme</a></li>
+            <li><a href="historial.html" class="blue-text">Historial</a></li>
+            <li><a href="tecnologias.html" class="blue-text">Tecnolog&iacute;as</a></li>
+            <li><a href="contacto.html" class="blue-text">Contacto</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse">
+            <i class="material-icons white-text">menu</i></a>
+        </div>
+      </nav>
+    </div>
+    <!-- TERMINA NAV-->
+
+  <!-- TERMINA NAV-->
+  <audio src="sounds/lalala.mp3" autoplay="true">
+
+  </audio>
+  <section class="transparent row plox">
+    <div class="row">
+    </div>
+    <h1 class="header" id="cambio">
+          <div class='element0'> </div>
+          <div class='element1 nodisplay'></div>
+          <div class='element2 nodisplay'></div>
+          <div class='element3 nodisplay'></div>
+          <div class='element4 nodisplay'></div>
+          <div class='element5 nodisplay'></div>
+          <div class='element6 nodisplay'></div>
+          <div id="foo" class='element7 nodisplay'></div>
+    </h1>
+  </section>
+
+<!-- particles.js container -->
+  <div id="particles-js"></div>
+
+
+
+<!-- scripts particles -->
+<script src="js/particles/particles.min.js"></script>
+<script src="js/particles/app.js"></script>
+
+<script src="js/jquery/jquery-3.js"></script>
+<!-- scripts framework materialize -->
+<script src="js/materialize.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/writtingAnimation.js" type="text/javascript"></script>
+
+
+</body>
+</html>
